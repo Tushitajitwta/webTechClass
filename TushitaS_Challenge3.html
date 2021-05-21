@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="TushitaS_Challenge3.css">
+<title>Text Shrink(Challenge03)</title>
+</head>
+<body>
+<header>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> Home </button></a>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> Place </button></a>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> Gallery </button></a
+>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> About </button></a>
+
+
+
+
+<h1>**Wings Of Fire**</h1>
+</header>
+<figure>
+<img src="ApjImg.jpg" alt="Wings of Fire" style="width:10%";
+ style="height:10%";>
+
+<figcaption> by A. P. J. Abdul Kalam</figcaption>
+</figure>
+<p>
+Every common man who by his sheer grit and hard work achieves success should share his story with the rest for they may find inspiration and strength to go on, in his story. The 'Wings of Fire' is one such autobiography by visionary scientist Dr. APJ Abdul Kalam, who from very humble beginnings rose to be the President of India. The book is full of insights, personal moments and life experiences of Dr. Kalam. It gives us an understanding on his journey of success.
+</p>
+<time>Year : 1999 </br> Date : 1st January </time>
+<div>
+<h3> Reviews </h3>
+<p><strong> The best book you will ever read!
+</strong> <br> Arnav
+ <img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="white-star.png" style="width: 1%;">
+</p>
+<p> <small> This is the most inspirational book one can ever read.</small></p>
+
+</div>
+<hr>
+<div>
+<p><strong> I surely recommend this book.
+</strong> <br> Nishchay
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+</p>
+<p> <small> This book is truly worthy of a 5 star review.</small></p>
+</div>
+<hr>
+<div>
+<p><strong> Wonderful read!
+</strong> <br> Ramesh Sharma
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="white-star.png" style="width: 1%;">
+<img src="white-star.png" style="width: 1%;">
+</p>
+<p> <small>This book is also a great read for MBA graduates and leaders. This book has really practical leadership lessons to offer.</small></p>
+<hr>
+<div>
+<p><strong> An amazing real-life account by an extra ordinary person.
+</strong> <br> Sheetal 
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+<img src="orange-star.png" style="width: 1%;">
+</p>
+<p> <small>. Management, philosophy and spirituality blended beautifully. Poetic in narration and easy to read.</small></p>
+</div>
+<hr>
+
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> Home </button></a>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> Place </button></a>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1/"><button> Gallery </button></a
+>
+<a href="https://www.amazon.in/Wings-Fire-Autobiography-Abdul-Kalam/dp/8173711461/ref=sr_1_1?crid=1HWFL789M0542&dchild=1&keywords=wings+of+fire&qid=1621582653&sprefix=wings+%2Caps%2C302&sr=8-1"><button> About </button></a>
+<footer>
+Copyright &copy; 1999 Autobiography
+</footer>
+<d id="demo"></d>
+<script>
+var var1 = setInterval(inTimer, 500);
+ var fs = 5; //font size
+var ids = document.getElementById("demo");
+ function inTimer()
+{
+ids.innerHTML = '*TEXT GROWING*';
+ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+fs += 5;
+if (fs >= 50)
+{
+clearInterval(var1); //paused
+ var2 = setInterval(deTimer, 500);
+}
+}
+function deTimer() //fs = 50px
+{
+fs -= 5;
+ids.innerHTML = '*TEXT SHRINKING*';
+ids.setAttribute('style', "font-size: " + fs + "px; color: blue");
+ if (fs == 5)
+{
+clearInterval(var2); //paused 
+var1 = setInterval(inTimer, 500);
+}
+}
+
+</script>
+</body>
+</html>
